@@ -14,7 +14,7 @@ def test_invalid_email_no_at_sign():
 
 
 def test_invalid_email_no_domain():
-    assert is_valid_email("test@") is False
+    assert is_valid_email("main@") is False
 
 
 def test_invalid_email_no_username():
