@@ -30,4 +30,4 @@ def test_invalid_email_none_input():
 
 
 def test_invalid_email_no_tld():
-    assert is_valid_email("test@example") is False
+    assert is_valid_email("new@example") is False
